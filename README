@@ -1,0 +1,18 @@
+Sort Server & Sort Client
+=======================================
+
+Ein Programmierbeispiel für Client-Server 
+Anwendung bei dem eine Sortieraufgabe 
+von einem Client an ein Server gestellt
+wird und von diesem durchgeführt.
+
+Das Ganze wird IPC-technisch über RPC
+gelöst.
+
+Dafür wird die Qt Erweiterung Qxt benutzt. 
+Eingesetzt dafür QxtRPCPeer aus QxtNetwork
+Modul.
+
+Voraussetzung:
+Qt SDK >= 4.6
+Qxt >= 0.6 
