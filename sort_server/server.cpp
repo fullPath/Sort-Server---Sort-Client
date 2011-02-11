@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "server.h"
-#include "connection.h"
 
 Server::Server(QObject *parent)
 :QObject(parent),m_socket(new QxtRPCPeer(this))

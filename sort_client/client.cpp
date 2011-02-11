@@ -22,8 +22,7 @@ Client::Client(QObject *parent)
 
 void Client::connectServer()
 {
-    m_socket->connect(QHostAddress("172.19.64.72"),9999);
-    //m_socket->connect(QHostAddress::LocalHost,9999);
+    m_socket->connect(QHostAddress::LocalHost,9999);
 }
 
 void Client::sendTask()
